@@ -1,0 +1,23 @@
+Makefile:39: Makefile.dep: No such file or directory
+make: Warning: File `x86_desc.S' has modification time 1.4e+03 s in the future
+make: Warning: File `Makefile.dep' has modification time 2.7e+03 s in the future
+pcb.h:44: warning: ‘pid’ defined but not used
+pcb.h:46: warning: ‘pcb_array’ defined but not used
+kernel.c: In function ‘entry’:
+kernel.c:364: warning: pointer targets in passing argument 1 of ‘execute’ differ in signedness
+kernel.c:364: warning: pointer targets in passing argument 3 of ‘execute’ differ in signedness
+kernel.c: At top level:
+pcb.h:44: warning: ‘pid’ defined but not used
+pcb.h:46: warning: ‘pcb_array’ defined but not used
+file_system.h:8: warning: ‘starting_mem_ptr’ defined but not used
+pcb.c: In function ‘read_file_noFD’:
+pcb.c:224: warning: function returns address of local variable
+system_calls.c: In function ‘sys_call_open’:
+system_calls.c:140: warning: assignment from incompatible pointer type
+system_calls.c:402:5: warning: multi-line comment
+system_calls.c: At top level:
+file_system.h:8: warning: ‘starting_mem_ptr’ defined but not used
+pcb.h:44: warning: ‘pid’ defined but not used
+pcb.h:46: warning: ‘pcb_array’ defined but not used
+file_system.h:8: warning: ‘starting_mem_ptr’ defined but not used
+make: warning:  Clock skew detected.  Your build may be incomplete.
